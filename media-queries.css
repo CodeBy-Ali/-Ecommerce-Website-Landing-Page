@@ -1,7 +1,37 @@
+@media screen and (max-width: 1765px)
+{
+  html {
+    font-size: 59%;
+  }
+}
+
+@media screen and (max-width:1660px)
+{
+  html{
+    font-size: 55%;
+  }
+}
+
+@media screen and (max-width: 1550px)
+{
+  html {
+    font-size: 51%;
+  }
+}
+
 @media screen and (max-width: 1450px) 
 {
   .navbar {
     padding: 20px 5% 14px 5%;
+  }
+  html {
+    font-size: 47%;
+  }
+}
+@media screen and (max-width:1350px)
+{
+  html {
+    font-size: 43%;
   }
 }
 
@@ -10,5 +40,26 @@
   .navbar {
     padding: 20px 2% 14px 2%;
   }
- 
+  
+  .bottom-navmenu-options {
+    letter-spacing: 0px;
+  }
+  html {
+    font-size: 40%;
+  }
+  
+}
+
+@media screen and (max-width:1150px)
+{
+  html {
+    font-size: 37%;
+  }
+}
+
+@media screen and (max-width: 1050px)
+{
+  html {
+    font-size: 35.8%;
+  }
 }

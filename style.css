@@ -140,31 +140,83 @@ html {
   font-size: 14px;
   font-weight: 400;
   text-size-adjust: 100%;
-  margin-bottom: 2px;
 }
 .announsement-bar-textlink {
   text-decoration: underline;
   cursor: pointer;
 }
 
-/* Her0 Section of the Website */
+/* Topic Tabs*/
 
+.topic-tabs {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: auto;
+  margin-bottom: 1px;
+}
+
+.topic-tabs ul {
+  padding: 0;
+  white-space: nowrap;
+  display: flex;
+  column-gap: 8px;
+}
+.topic-tabs ul li{
+  display: inline-block;
+  color: black;
+  background-color: rgb(239, 239, 239);
+  padding: 1px 6px;
+  font-size: 13px;
+  font-weight: 700;
+}
 /* First hero image */
 
-.hero-img img{
+.first-heroimage {
+  width:100%;
+  height: auto;
+  margin-bottom: 4.2rem;
+}
+.first-heroimage img {
   width: 100%;
-  cursor: pointer;
   object-fit: cover;
 }
 
+
+/* Shop Items */
+
+.shopitems-sec {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 0px 5.2rem;
+  row-gap: 5rem;
+  column-gap: 4rem;
+  margin-bottom: 6.6rem;
+}
+
+
+.itemimg {
+  margin-bottom: 2rem;
+  height: fit-content;
+}
+.itemimg img {
+  width: 100%;
+  object-fit: cover;
+  
+}
+.item-description p {
+  font-size: 2.7rem;
+  font-weight: 400;
+
+}
 /* Second Hero Image */ 
 
-.Second-HeroImage{
-  margin-top: 3.4rem;
+.second-heroimage{
   margin-bottom: 1.7rem;
   width: 100%;
 }
-.Second-HeroImage img {
+.second-heroimage img {
   object-fit: cover;
   width: 100%;
   cursor: pointer;
