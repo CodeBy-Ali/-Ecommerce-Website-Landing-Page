@@ -1,6 +1,14 @@
-@media screen and (max-width: 750px) 
+@media screen and (max-width: 1450px) 
 {
   .navbar {
-    background-color: red;
+    padding: 20px 5% 14px 5%;
   }
+}
+
+@media screen and (max-width: 1250px)
+{
+  .navbar {
+    padding: 20px 2% 14px 2%;
+  }
+ 
 }
